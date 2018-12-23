@@ -1,0 +1,28 @@
+{
+  "name": "aerial",
+  "version": "1.0.0",
+  "description": "Aerial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickpalenchar/aerial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickpalenchar/aerial/issues"
+  },
+  "homepage": "https://github.com/nickpalenchar/aerial#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-auth-token": "^1.0.1",
+    "shelljs": "^0.8.3",
+    "uid-generator": "^1.0.0"
+  }
+}
