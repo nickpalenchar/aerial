@@ -22,6 +22,8 @@
     "express": "^4.16.4",
     "passport": "^0.4.0",
     "passport-auth-token": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-local-token": "^1.0.1",
     "shelljs": "^0.8.3",
     "uid-generator": "^1.0.0"
   }
