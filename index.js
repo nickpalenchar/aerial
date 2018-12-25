@@ -16,7 +16,7 @@ const AuthTokenStrategy = require('passport-auth-token');
 // ))
 const service = require('./db/service');
 let Users = service.model('Users');
-let user = Users.find({lastName: 'Palenchar'});
+Users.updateOne({firstName: 'Nick', lastName: 'Palenchar'}, {hello: 'world'})
 console.log(user);
 
 app.post('/login',
