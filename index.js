@@ -16,7 +16,8 @@ const AuthTokenStrategy = require('passport-auth-token');
 // ))
 const service = require('./db/service');
 let Users = service.model('Users');
-Users.DEV_whoami()
+let user = Users.find({lastName: 'Palenchar'});
+console.log(user);
 
 app.post('/login',
   passport.authenticate('local', { successRedirect: '/',
